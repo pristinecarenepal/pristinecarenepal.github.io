@@ -18,6 +18,12 @@
             }
         }
 
+        @media (max-width: 1000px) {
+          .hidden-xs {
+            display: none !important;
+          }
+        }
+
         /* small css for the mobile nav close */
         #nav-mobile-btn.close span:first-child {
             transform: rotate(45deg);
@@ -40,7 +46,7 @@
             class="container flex items-center justify-center h-full max-w-6xl px-8 mx-auto sm:justify-between xl:px-0">
 
             <a href="/" class="relative flex items-center inline-block h-5 h-full font-black leading-none">
-                <img src="images/logo.png" width="70px" height="70px" />
+                <img src="images/logo.png" width="8%" height="8%" />
                 <!-- <svg class="w-auto h-6 text-indigo-600 fill-current" viewBox="0 0 194 116"
                     xmlns="http://www.w3.org/2000/svg">
                     <g fill-rule="evenodd">
@@ -49,7 +55,7 @@
                         <path d="M87 68.732l9.926 17.143 29.893-51.59L174.15 116H194L126.817 0z" />
                     </g>
                 </svg> -->
-                <span class="ml-3 text-3xl text-gray-800">Pristine Dental and Maxillofacial Center<span class="text-pink-500">.</span></span>
+                <span class="ml-3 text-3xl text-gray-800" style="padding-right:1em">Pristine Dental and Maxillofacial Center<span class="text-pink-500">.</span></span>
             </a>
 
             <nav id="nav"
@@ -198,7 +204,7 @@
             <div class="relative z-50 flex flex-col items-end justify-center w-full h-full lg:w-1/2 ms:pl-10">
                 <div class="container relative left-0 w-full max-w-4xl lg:absolute xl:max-w-6xl lg:w-screen">
                     <img src="images/equipment.gif"
-                        class="w-full h-auto mt-20 mb-20 ml-0 lg:mt-24 xl:mt-40 lg:mb-0 lg:h-full lg:-ml-12" style="padding-right:200px">
+                        class="hidden-xs w-full h-auto mt-20 mb-20 ml-0 lg:mt-24 xl:mt-40 lg:mb-0 lg:h-full lg:-ml-12" style="padding-right:200px">
                 </div>
             </div>
         </div>
